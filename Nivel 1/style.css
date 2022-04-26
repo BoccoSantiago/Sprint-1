@@ -119,14 +119,40 @@ aside{
     }
 
     aside{
-        background: rgb(208, 41, 41);
         width: auto;
-        color: rgb(233, 244, 121);
         margin: 15px; 
         
     }
 
 
+}
+
+@media only screen and (max-width: 550px){
+    .columns {
+       display: block;  
+    }
+
+    .columns-section {
+        display: block;
+        
+    }
+    .column-section {
+        width: auto;
+        padding: 0px 10px 0px 10px;
+    }
+    .foot-section{
+        padding: 0px 10px 0px 10px;
+    }
+
+    header {
+        margin: 30px;
+    }
+    main{
+        margin: 30px;
+    }
+    footer {
+        margin: 30px;
+    }
 }
 
    
