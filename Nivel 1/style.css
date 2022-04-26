@@ -4,38 +4,47 @@
 }
 header {
     width: auto;
-    height: 10%;
     background: rgb(0, 0, 0);
     color: white;
     margin: 9px;
-    padding: 1px;
+    padding: 5px;
     
 }
 
 
 main {
+    display: flex;
     width: auto;
     height: 80%;
     text-align: center;
-    background: rgb(42, 74, 139);
+    background: rgb(0, 0, 0);
     color: white;
     margin: 10px;
-    border: 10px solid black
+    padding: 5px;
+    
+    
 }
 
 footer {
     width: auto;
     height: 10%;
     text-align: center;
-    background: rgba(229, 142, 19, 0.707);
+    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     margin: 10px;
-    border: 10px solid black;
+    padding: 10px;
+}
+
+footer > h3{
+    background: orange;
+    margin: 10px;
+    padding: 10px;
 }
 
 .columns {
     display: flex;
     background: rgb(7, 13, 124);
-    margin: 10px;
+    margin: 15px;
     padding: 5px;
    
 }
@@ -51,32 +60,56 @@ footer {
 .footcolumn {
     text-align: center;
     background: rgb(228, 130, 2);
-    margin: 10px;
+    margin: 15px;
     padding: 5px;
     color: yellow;
+    
    
-}
-
-.section {
-    display: flex;
 }
 
 aside{
     background: rgb(208, 41, 41);
-    margin: 5px; 
-    width: 30%;
+    margin: 15px 15px 15px 5px; 
+    width: auto;
     color: rgb(233, 244, 121);
+    padding: 10px; 
     
 }
 
-.column-section{
-    width: 35%;
+.section {
+    display: flex;
+    background: rgb(60, 109, 177) ;
+    padding: 5px;
+    margin: 15px;
+    flex-wrap: wrap;
+    
+}
+.columns-section {
+    display: flex;
+}
+
+
+.column-section {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    color: rgb(42, 62, 78);
+    
 }
 
 .foot-section {
-    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(131, 179, 219);
     
 }
+
+
+
+
+   
 
 
 
