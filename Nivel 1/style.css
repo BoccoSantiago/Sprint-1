@@ -4,17 +4,18 @@
 }
 header {
     width: auto;
-    height: 150px;
-    background: rgb(31, 90, 86);
+    height: 10%;
+    background: rgb(0, 0, 0);
     color: white;
-    margin: 10px;
-    border: 10px solid black
+    margin: 9px;
+    padding: 1px;
+    
 }
 
 
 main {
     width: auto;
-    height: 90%;
+    height: 80%;
     text-align: center;
     background: rgb(42, 74, 139);
     color: white;
@@ -24,53 +25,59 @@ main {
 
 footer {
     width: auto;
-    height: 50px;
+    height: 10%;
     text-align: center;
-    background: rgba(255, 0, 0, 0.707);
-    color: rgb(255, 255, 255);
+    background: rgba(229, 142, 19, 0.707);
     margin: 10px;
     border: 10px solid black;
 }
 
 .columns {
     display: flex;
+    background: rgb(7, 13, 124);
+    margin: 10px;
+    padding: 5px;
+   
 }
 
 .column {
     margin: 5px auto;
     text-align: center;
-    background: rgb(62, 61, 61);
+    color: rgb(178, 23, 23);
     padding: 0px 10px ;
     
 }
 
 .footcolumn {
     text-align: center;
+    background: rgb(228, 130, 2);
+    margin: 10px;
+    padding: 5px;
+    color: yellow;
    
 }
 
-
-
-aside{
-    background: rgb(140, 28, 28);
-    margin: 5px;
-    width: 30%;
-    border: 5px solid black;
-    height: 100%
-
-}
-
-.maincolumns {
+.section {
     display: flex;
 }
 
-.column-main {
-    width: 50%;
+aside{
+    background: rgb(208, 41, 41);
+    margin: 5px; 
+    width: 30%;
+    color: rgb(233, 244, 121);
+    
 }
 
-.mainfoot {
-    width: 70%;
+.column-section{
+    width: 35%;
 }
+
+.foot-section {
+    flex-direction: column;
+    
+}
+
 
 
 
