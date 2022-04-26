@@ -107,7 +107,27 @@ aside{
 }
 
 
+@media only screen and (max-width: 768px) {
+    main {
+        display: block;
+        text-align: center;
+        background: rgb(255, 217, 0);
+        color: white;
+        padding: 5px;
+        
+        
+    }
 
+    aside{
+        background: rgb(208, 41, 41);
+        width: auto;
+        color: rgb(233, 244, 121);
+        margin: 15px; 
+        
+    }
+
+
+}
 
    
 
