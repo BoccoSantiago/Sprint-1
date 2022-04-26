@@ -1,0 +1,203 @@
+*{  max-width: 1200px;
+    
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+header {
+    background: url("imagenes/header.jpg");
+    background-position: 0;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.img-main {
+    width: 100%;
+}
+
+
+main {
+    display: flex;
+    width: auto;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+=
+}
+
+footer {
+    width: auto;
+    text-align: center;
+    background: rgb(220, 220, 220);
+    color: rgb(0, 0, 0);
+    padding: 2px;
+}
+
+
+ul {
+    display: flex;
+   
+    
+   
+}
+
+li {
+    width: auto;
+    list-style: none;
+    padding: 0 0 20px 0;
+  
+}
+
+.menu {
+    position: relative;
+    top: -50px;
+}
+
+
+
+a {
+    padding: 0 30px 0 30px;
+    color: black;
+    text-decoration: none;
+    width: auto;
+    font-size: 100%;
+   
+   
+    
+}
+
+a:hover {
+    color: rgba(255, 64, 0, 0.642);
+    transition: color .5s;
+}
+
+.casa {
+    height: 50px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 5px;
+    color: rgba(51, 51, 51, 0.717);
+    text-shadow: 5px 1px 10px rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.354);
+    margin: 100px;
+    font-size:1.5vw;
+    
+}
+
+aside {
+    background: rgb(178, 178, 178);
+    margin: 0 0 0 10px;
+    width: auto;
+    color: rgb(63, 63, 63);
+    padding: 10px; 
+    
+}
+
+.section {
+    display: flex;
+    background: rgb(167, 167, 167) ;
+    flex-wrap: wrap;
+    
+}
+.columns-section {
+    display: flex;
+}
+
+
+.column-section {
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    background: rgb(205, 205, 205);
+    
+}
+.column-section h2{
+    background-color: rgb(202, 131, 131);
+    color: rgb(255, 237, 237);
+    padding: 5px 10px 0 2px;
+    margin-top: 0;
+}
+
+.column-section p{
+    column-count: 2;
+    text-align: left;
+    color: rgb(91, 91, 91);
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    main {
+        display: block;
+        
+        
+
+    }
+
+    aside{
+       width: auto;
+       margin: 10px 0 0 0;
+        
+        
+    }
+    .titulo{
+        
+        margin: 20px;
+        font-size: 2vw;
+        position: relative;
+        top: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+    .columns {
+       display: block;  
+    }
+
+    .columns-section {
+        display: block;
+        
+    }
+    .column-section {
+        width: auto;
+        
+    }
+    .foot-section{
+       
+    }
+
+    header {
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        overflow: visible;
+        justify-content: center;
+    }
+
+    .titulo{
+        
+        position: relative;
+        top: 50px;
+    }
+}
+
+   
+
+
+
+
+
