@@ -65,8 +65,8 @@ header a {
     text-decoration: none;
     width: auto;
     font-size: 100%;
-   
-   
+    display: inline-block;
+    animation: arriba 1.5s ease-out;
     
 }
 
@@ -77,6 +77,7 @@ header a:hover {
 
 .casa {
     height: 50px;
+    animation: arriba 1s ease-out;
 }
 
 .titulo {
@@ -87,6 +88,7 @@ header a:hover {
     background: rgba(88, 88, 88, 0.354);
     margin: 100px;
     font-size:100%;
+    animation: aparecer 3s ease-in-out;
     
 }
 
@@ -143,6 +145,28 @@ aside {
     position: absolute;
     transform: translate(5%, -130%);
     color: rgb(252, 252, 150); 
+}
+
+
+@keyframes arriba {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 
@@ -207,9 +231,9 @@ aside {
     }
 
     .titulo{
-        
+        font-size: 50%;
         position: relative;
-        top: 50px;
+        top: 30px;
     }
     header a{
         padding: 15px;
@@ -217,7 +241,15 @@ aside {
 }
 
    
+@media only screen and (max-width: 340px){
+   .titulo{
+    position: relative;
+    top: 0px;}
+    header a{
+        padding: 8px;
+    }
 
+}
 
 
 
