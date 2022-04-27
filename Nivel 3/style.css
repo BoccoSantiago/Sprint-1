@@ -1,5 +1,5 @@
 *{  max-width: 1200px;
-    
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -40,6 +40,7 @@ footer {
 ul {
     display: flex;
     flex-wrap: wrap;
+    
    
 }
 
@@ -74,6 +75,7 @@ header a:hover {
 }
 
 .casa {
+    padding: 20px 20px 20px 10px;
     height: 50px;
     animation: arriba 1s ease-out;
 }
@@ -254,7 +256,7 @@ aside {
      top: 70px;}
  
      li a{  
-         padding-left: 15px;
+         padding-left: 30px;
          padding-right: 0;
          
          }
