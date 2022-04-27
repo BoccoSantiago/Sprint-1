@@ -142,8 +142,7 @@ aside {
 .texto-imagen{
     position: absolute;
     transform: translate(5%, -130%);
-    color: rgb(252, 252, 150);
-    
+    color: rgb(252, 252, 150); 
 }
 
 
@@ -151,16 +150,11 @@ aside {
 @media only screen and (max-width: 768px) {
     main {
         display: block;
-        
-
-
     }
 
     aside{
        width: auto;
-       margin: 10px 0 0 0;
-        
-        
+       margin: 10px 0 0 0; 
     }
     .titulo{
         
