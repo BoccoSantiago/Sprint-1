@@ -65,7 +65,9 @@ header a {
     text-decoration: none;
     width: auto;
     font-size: 100%;
-
+    display: inline-block;
+    animation: arriba 1.5s ease-out;
+    
 }
 
 header a:hover {
@@ -75,7 +77,7 @@ header a:hover {
 
 .casa {
     height: 50px;
-    
+    animation: arriba 1s ease-out;
 }
 
 .titulo {
@@ -146,6 +148,28 @@ aside {
 }
 
 
+@keyframes arriba {
+    0%{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
 
 @media only screen and (max-width: 768px) {
     main {
@@ -157,6 +181,7 @@ aside {
        margin: 10px 0 0 0; 
     }
     .titulo{
+        
         margin: 20px;
         font-size: 2vw;
         position: relative;
@@ -170,14 +195,11 @@ aside {
         justify-content: center;
     }
 
-    header a {
-        padding: 0 50px 0 50px;
     
-    }
 
 }
 
-@media only screen and (max-width: 580px){
+@media only screen and (max-width: 550px){
     .columns {
        display: block;  
     }
@@ -211,28 +233,26 @@ aside {
     .titulo{
         font-size: 50%;
         position: relative;
-        top: 30px;
+        top: 90px;
     }
     header a{
-            padding: 0 30px 0 20px;
-        
-        }
+        padding: 0 30px 0 20px;
     }
-
+}
 
    
 @media only screen and (max-width: 400px){
-   .titulo{
-    position: relative;
-    top: 0px;}
+    .titulo{
+     position: relative;
+     top: 70px;}
+ 
+     li a{  
+         padding-left: 15px;
+         padding-right: 0;
+         
+         }
+}
 
-    li a{  
-        padding-left: 15px;
-        padding-right: 0;
-        
-        }
-    }
-    
 
 
 
